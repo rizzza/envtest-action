@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang
 
 ENV KUBERNETES_VERSION="1.27"
 ENV ARGS="./..."
